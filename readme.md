@@ -17,7 +17,7 @@ version := "1.0-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
-scalaVersion := "2.12.6"
+scalaVersion := "2.12"
 
 
 libraryDependencies += guice
@@ -32,7 +32,7 @@ libraryDependencies ++= {
     "com.github.fakemongo" % "fongo" % "2.1.0",
     "net.liftweb"       %% "lift-webkit" % liftVersion % "compile",
     "ch.qos.logback" % "logback-classic" % "1.2.3",
-    "org.scala-lang" % "scala-reflect" % "2.12.6",
+    "org.scala-lang" % "scala-reflect" % "2.12",
     "io.spray" %%  "spray-json" % "1.3.3",
     "com.fasterxml.jackson.core" % "jackson-databind" % "2.7.3",
     "com.fasterxml.jackson.module" % "jackson-module-scala_2.11" % "2.7.2",
